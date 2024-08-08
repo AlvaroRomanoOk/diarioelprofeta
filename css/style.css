@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #F2F2F2;
+
+    background-color: #f0e6d2; /* Color de fondo similar al papel envejecido */
+    background-image: 
+        radial-gradient(circle, rgba(255, 255, 255, 0.15) 2px, rgba(240, 230, 210, 0) 3px), /* pequeñas manchas claras */
+        radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, rgba(240, 230, 210, 0) 2px), /* pequeñas manchas oscuras */
+        linear-gradient(135deg, rgba(240, 230, 210, 0.1) 25%, transparent 25%, transparent 50%, rgba(240, 230, 210, 0.1) 50%, rgba(240, 230, 210, 0.1) 75%, transparent 75%, transparent); /* líneas diagonales claras */
+    background-size: 150px 150px, 150px 150px, 60px 60px;
+    background-blend-mode: multiply;
+}
