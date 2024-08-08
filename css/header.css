@@ -27,6 +27,12 @@ header #logo .menu_secion {
 
 .menu {
     background: none;
+    display: block;
+}
+
+.menu .menu_icon {
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 header .nav {
@@ -73,4 +79,20 @@ nav.active ul {
 
 .nav ul li .fix-li {
     margin: 20;
+}
+
+@media screen and (min-width:375px) {
+
+    img {
+        width: 200px;
+    }
+
+    header #logo {
+        height: 70px;
+    }
+
+    .nav.active {
+        height: calc(100vh - 70px);
+        top: 70px;
+    }
 }
