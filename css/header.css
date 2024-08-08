@@ -21,13 +21,15 @@ header #logo {
 
 header #logo .menu_secion {
     display: flex;
+    align-items: center;
     flex-direction: column;
     cursor: pointer;
 }
 
 .menu {
     background: none;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .menu .menu_icon {
