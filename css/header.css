@@ -123,6 +123,10 @@ nav.active ul {
     }
 
     header #logo {
+        height: auto;
+    }
+
+    header #logo {
         flex-direction: column;
         padding-top: 20px;
     }
@@ -140,8 +144,8 @@ nav.active ul {
     }
 
     nav ul {
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 14px;
+        padding-bottom: 14px;
         list-style: none;
         display: flex;
         justify-content: center;
@@ -156,10 +160,28 @@ nav.active ul {
         color: #000;
         text-decoration: none;
         font-weight: bold;
+        font-size: 20px;
     }
     
     nav ul li a:hover {
         text-decoration: underline;
     }
 
+}
+
+@media screen and (min-width:1440px) {
+
+    img {
+        width: 400px;
+    }
+
+    .nav ul {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 36px;
+    }
+    
+    nav ul li a {
+        font-size: 22px;
+    }
 }
